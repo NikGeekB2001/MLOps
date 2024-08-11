@@ -1,0 +1,46 @@
+# Объявление провайдера
+terraform {
+  required_providers {
+    yandex = {
+      source = "yandex-cloud/yandex"
+    }
+  }
+  required_version = ">= 1.00"
+}
+
+provider "yandex" {
+  zone      = var.zone
+  folder_id = var.folder_id
+  token     = var.token
+}
+
+resource "yandex_storage_bucket" "my_bucket" {
+  bucket = "ml-ops-new-bucket"
+  acl    = "public-read"
+}
+
+---------------
+nano variables.tf
+
+variable "zone" {
+  description = "The zone in which to create resources"
+  type        = string
+}
+
+variable "folder_id" {
+  description = "The ID of the folder in which to create resources"
+  type        = string
+}
+
+variable "token" {
+  description = "The OAuth token for authenticating with Yandex Cloud"
+  type        = string
+  sensitive   = true
+}
+
+
+nano terraform.tfvars
+
+zone = "ru-central1-a"
+folder_id = "b1gsp3.........hkll"
+token = "y0_A.................Zw"
