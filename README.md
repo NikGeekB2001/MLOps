@@ -60,9 +60,10 @@ https://github.com/NikGeekB2001/otus_mlops_streaming
 5. Протестировал имитацию атаки сервиса
 до срабатывания алерта.
 
+https://github.com/NikGeekB2001/Kubernetes-ml-skel/tree/main
+
 https://github.com/NikGeekB2001/kubernetes-update-ml-model
 
 https://github.com/NikGeekB2001/test-otus
-
 
 ![image](https://github.com/user-attachments/assets/a41b88d5-ba4c-41e3-a04d-20eebb4ee2c7)
