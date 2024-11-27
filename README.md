@@ -13,7 +13,7 @@
 
 Спасибо за внимание и поддержку!
 
-Для полного удобства все репозитории проекта собраны ниже:
+Для полного удобства все репозитории проекта собраны ниже (файлы README.md):
 
 https://github.com/NikGeekB2001/MLOps/blob/main/README.md
 
@@ -42,20 +42,27 @@ https://github.com/NikGeekB2001/MLOps/blob/main/data_proc_webinar.py
 
 https://github.com/NikGeekB2001/MLOps/blob/main/malicious_url-original.ipynb
 
+1. Настроена kafka in YC через SLL сертификат и Python (kafka-python),
+с использованием kafka UI для эффективной визуализации и просмотр логов.
+2. Репозиторий 
+https://github.com/NikGeekB2001/otus_mlops_streaming
 
+1. Настроил политику развертывания модели в кластере Kubernetes от 4 до 6
+экземпляров и развернул модель.
+Запустил титаник сервис.
+2. Настроил сервер Prometheus для мониторинга параметров кластера и качества
+работы модели.
+3. Настроил отображение метрик в виде графиков с помощью Grafana.
+4. Создал в Grafana дашборд и алерты.
+Настроил уведомление в телеграмм в случае ошибки модели (добавление нового класса) с кодом 400
+и 1000 экземпляров модели.
+Создал алерт и чат бота в телеграмм.
+5. Протестировал имитацию атаки сервиса
+до срабатывания алерта.
+
+https://github.com/NikGeekB2001/kubernetes-update-ml-model
 
 https://github.com/NikGeekB2001/test-otus
-
-## DZ 2
-1. Ссылка на бакет
-   s3cmd ls s3://otus-mlops-dataproc-bucket/
-
-## DZ 3
-2. Ссылка на бакет
-s3cmd ls s3://otus-dataproc-bucket-1/
-
-## DZ 5
-
 
 
 ![image](https://github.com/user-attachments/assets/a41b88d5-ba4c-41e3-a04d-20eebb4ee2c7)
