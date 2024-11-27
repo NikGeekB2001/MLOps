@@ -15,9 +15,36 @@
 
 Для полного удобства все репозитории проекта собраны ниже:
 
+https://github.com/NikGeekB2001/MLOps/blob/main/README.md
+
 https://github.com/NikGeekB2001/otus-spark
 
+https://github.com/NikGeekB2001/otus-spark-ml
 
+https://github.com/NikGeekB2001/automl-practice/blob/main/README.md
+
+1. Запустил систему Apache Airflow на отдельной виртуальной машине Yandex
+cloud.
+2. Создал DAG для ежедневного автоматизированного создания и удаления Sparkкластера и запуска скрипта очистки датасета и разместить его в директории для DAG’ов,
+доступной Apache Spark. В графе прописал этапы копирования скрипта и
+необходимых ему файлов на Spark-кластер, а также его запуска на кластере посредством
+spark-submit.
+3. Убедился, что граф загрузился в систему и отображается в графическом
+интерфейсе.
+Файл с DAG разместиk в GitHub- репозитории:
+https://github.com/NikGeekB2001/MLOps/blob/main/data_proc_webinar.py
+4. Разрешил периодическое исполнение разработанного DAG в Apache AirFlow и
+протестировал его работоспособность. 
+
+Провел валидацию модели после обучения и ее анализ.
+
+Разместил на GitHub и изменил статус ранее созданных задач на Kanban-доске в GitHub Projects.
+
+https://github.com/NikGeekB2001/MLOps/blob/main/malicious_url-original.ipynb
+
+
+
+https://github.com/NikGeekB2001/test-otus
 
 ## DZ 2
 1. Ссылка на бакет
