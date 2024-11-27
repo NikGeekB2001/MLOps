@@ -45,6 +45,7 @@ https://github.com/NikGeekB2001/MLOps/blob/main/malicious_url-original.ipynb
 1. Настроена kafka in YC через SLL сертификат и Python (kafka-python),
 с использованием kafka UI для эффективной визуализации и просмотр логов.
 2. Репозиторий 
+
 https://github.com/NikGeekB2001/otus_mlops_streaming
 
 1. Настроил политику развертывания модели в кластере Kubernetes от 4 до 6
